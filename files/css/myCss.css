@@ -1,0 +1,408 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: #e0e0e0;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+}
+
+header, footer, article, section, nav, aside {
+    display: block;
+}
+
+form {
+    margin: 15px;
+}
+
+/* Χώρος που περιέχει το κυρίως μέρος της σελίδας */
+#content_area {
+    float: left;
+    width: 80%;
+}
+
+/* Χώρος διαφημίσεων (ads banner) */
+#ads {
+    padding: 15px 0 10px 0;
+    float: right;
+    text-align: center;
+    width: 20%;
+}
+
+#ads li {
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+
+#ads img {
+    width: 80%;
+    height: 700px;
+}
+
+/* Τα άρθρα της κεντρικής σελίδας */
+
+#index_article {
+    margin: 15px;
+    float: left;
+    padding-top: 20px;
+    height: 280px;
+}
+
+#index_article h1{
+    width: 620px;
+    padding-bottom: 10px;
+}
+
+#index_article img {
+    float: left;
+    width: 220px;
+    height: 150px;
+}
+
+#index_article p {
+    padding-left: 10px;
+    height: 190px;
+    width: 440px;
+    float:left;
+    overflow: hidden;
+}
+
+h1 > a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1 > a:hover {
+    color: red;
+}
+
+/* Τα άρθρα των κατηγοριών */
+#category_article {
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+#category_article h1 {
+    padding-bottom: 20px;
+}
+
+#main_table {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#logo_col img {
+    width: 100%;
+}
+
+#logo_col {
+    width: 60%;
+}
+
+#data_col {
+    vertical-align: top;
+    padding-left: 25px;
+    font-style: italic;
+}
+
+#social_col {
+    vertical-align: bottom;
+    padding-left: 10px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #a0a0a0;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* Το πάνω μέρος της σελίδας */
+#website_header {
+    background-color: #c0c0c0;
+}
+
+#upper_part {
+    padding: 10px 10px 10px 10px;
+}
+
+#logo {
+    float: left;
+    width: 150px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#links {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    text-align: right;
+}
+
+/* Το navigation menu bar */
+#top_menu {
+    background-color: #333;
+}
+
+#top_menu li {
+    display: inline-flex;
+    text-align: center;
+}
+
+#top_menu a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    font-size: 17px;
+}
+
+#top_menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#current {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Το footer της σελίδας */
+#website_footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+#website_footer li {
+    display: inline-flex;
+}
+
+#website_footer a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    font-size: 17px;
+}
+
+/* Η σελίδα εγγραφής (register) */
+#table {
+    text-align: left;
+    padding-top: 15px;
+}
+
+#table td {
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+#table input {
+    float: left;
+    width: 99%;
+}
+
+#table textarea {
+    float: left;
+    width: 100%;
+}
+
+#login_button {
+    margin-top: 10px;
+}
+
+#login_table input {
+    float: left;
+    width: 100%;
+}
+
+#login_table td {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#login_form {
+    float: left;
+    text-align: center;
+}
+
+#radio_button_row input {
+    width: auto;
+}
+
+#radio_button_row li {
+    float: left;
+    display: inline-flex;
+    padding-right: 20px;
+}
+
+#terms {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+#form_buttons {
+    text-align: center;
+}
+
+/* Διαγραφή λογαριασμού συνδρομητή */
+#delete_account_button {
+    background-color: red;    
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#delete_account {
+    padding-top: 350px;
+    padding-left: 20px;
+}
+
+/* Προσωπικά στοιχεία του συνδρομητή */
+#my_personal_data {
+    float: left;
+    padding: 10px;
+}
+
+/* Τροποποίηση των στοιχείων του συνδρομητή */
+#edit_buttons a {
+    text-decoration: none;
+}
+
+#edit_buttons h4 {
+    color: black;
+}
+
+#edit_buttons {
+    padding-top: 20px;
+    text-align: center;
+    float: right;
+}
+
+#buttons_with_images {
+    border: 2px solid black;
+}
+
+/* Φόρμα εισόδου συνδρομητή */
+#sub_login_form {
+    float: left;
+    padding: 20px;
+}
+
+/* Φόρμα εισόδου συντάκτη */
+#admin_login_form {
+    float: right;
+    padding: 20px;
+}
+
+/*  Τροποποίηση άρθρων απο τον συντάκτη */
+
+#select_category_button {
+    margin-left: 20px;
+}
+
+#add_article_button a {
+    text-decoration: none;
+}
+
+#add_article_button h4 {
+    color: black;
+}
+
+#add_article_button {
+    float: right;
+    margin-top: 20px;
+    width: 17%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Επεξεργασία των συνδρομών απο τον συνδρομητή */
+#my_subs {
+    padding: 20px;
+    float: left;
+}
+
+#available_categories {
+    padding: 20px;
+    float: left;
+}
+
+#calculate_cost {
+    padding: 20px;
+    float: left;
+}
+
+#categories_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#categories_table td, th {
+    border: 2px solid #b4b4b4;
+    text-align: center;
+    padding: 8px;
+}
+
+#categories_table tr:nth-child(even) {
+    background-color: #c8c8c8;
+}
+
+#selected_categories ul {
+    padding-left: 40px;
+    list-style-type: square;
+}
+
+#selected_categories li {
+    padding-top: 10px;
+} 
+
+#calculated_infos {
+    float:left;
+    width: 60%;
+}
+
+#add_subscribe {
+    float:left;
+}
+
+/* Στατιστικά */
+#most_popular_category {
+    margin: 20px;
+}
+
+#category_stats {
+    margin: 20px;
+    width: 30%;
+}
+
+#xml_table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#xml_table td, th {
+    border: 2px solid #b4b4b4;
+    text-align: left;
+    padding: 8px;
+}
+
+#xml_table tr:nth-child(even) {
+    background-color: #c8c8c8;
+}

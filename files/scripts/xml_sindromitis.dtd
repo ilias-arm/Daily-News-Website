@@ -1,0 +1,19 @@
+<!ELEMENT lista_sindromiti (sindromitis*)>
+<!ELEMENT sindromitis (stoixeia_sindromiti, sindromi+, etisio_kostos)> 
+<!ELEMENT stoixeia_sindromiti (id_sindromiti, onoma, eponimo, email, kodikos, ilikia, filo)>
+<!ELEMENT id_sindromiti (#PCDATA)>
+<!ELEMENT onoma (#PCDATA)>
+<!ELEMENT eponimo (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT kodikos (#PCDATA)>
+<!ELEMENT ilikia (#PCDATA)>
+<!ELEMENT filo (#PCDATA)>
+<!ELEMENT sindromi (katigories_sindromiti+)>
+<!ELEMENT katigories_sindromiti (stoixeia_katigorias)>
+<!ELEMENT stoixeia_katigorias (id_katigorias, titlos, kostos)>
+<!ELEMENT id_katigorias (#PCDATA)>
+<!ELEMENT titlos (#PCDATA)>
+<!ELEMENT kostos (#PCDATA)>
+<!ELEMENT etisio_kostos (timi)>
+<!ELEMENT timi (#PCDATA)>
+
